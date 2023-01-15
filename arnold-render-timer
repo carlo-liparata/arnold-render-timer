@@ -204,14 +204,14 @@ class myUi(QtWidgets.QMainWindow):
     
         if (self.isHickRendering() == False and not self.active_IPR.isPaused()):    
             if self.renderCheck:                
-                print("FINTITO")
+                #print("FINISHED")
                 self.myStopRender()
             else:
-                print("CARICANDO")
+                #print("LOADING")
                 pass
         else:            
             self.renderCheck = True
-            print("RENDERING")
+            #print("RENDERING")
 
             
 mainWin = myUi()
