@@ -94,7 +94,7 @@ class myUi(QtWidgets.QMainWindow):
         
     def findRops(self):
         
-        ropsTypesWhiteList = ["arnold", "ifd", "karma"]
+        ropsTypesWhiteList = ["arnold"]
         outContext = hou.node("/out")
         allRops = outContext.children()
         renderableRops = []
